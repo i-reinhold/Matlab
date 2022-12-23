@@ -37,7 +37,7 @@ if nargin < 5 || isempty(p_option)
 end
 
 if nargin < 6 || isempty(nfft)
-    nfft = 1014;
+    nfft = 1024;
 end
 
 if nargin < 7  || isempty(tfact)
